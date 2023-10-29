@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/davidgao7.github.io/fullstackapp/static/css/main.073c9b0a.css",
+    "main.js": "/davidgao7.github.io/fullstackapp/static/js/main.575b0003.js",
+    "static/js/787.2cc24265.chunk.js": "/davidgao7.github.io/fullstackapp/static/js/787.2cc24265.chunk.js",
+    "static/media/logo.svg": "/davidgao7.github.io/fullstackapp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/davidgao7.github.io/fullstackapp/index.html",
+    "main.073c9b0a.css.map": "/davidgao7.github.io/fullstackapp/static/css/main.073c9b0a.css.map",
+    "main.575b0003.js.map": "/davidgao7.github.io/fullstackapp/static/js/main.575b0003.js.map",
+    "787.2cc24265.chunk.js.map": "/davidgao7.github.io/fullstackapp/static/js/787.2cc24265.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.575b0003.js"
+  ]
+}
