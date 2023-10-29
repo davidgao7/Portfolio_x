@@ -23,4 +23,4 @@
     - can publish on public domain
 
 ## Show case
-<!-- gif-->
+<!-- app demo gif-->
