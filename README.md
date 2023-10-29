@@ -7,10 +7,11 @@
 - user upload a video
     - return a video with faces circled all the time as faces moves
 
-## Planned structure
+## Planned tech stack to use 
 - Backend: python face detect api
     - yolov5
     - cv2
+    - flask (connect between front and back)
 - Frontend: a mordern looking web application
     - reactjs
 
