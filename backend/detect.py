@@ -1,6 +1,8 @@
+
 """
 lets practice using pytorch!
 """
+
 # detect human faces in images using cv2, pytorch and yolov5 model, passing the result image with bounding boxes to the frontend
 
 import cv2
@@ -16,6 +18,7 @@ CORS(app)
 
 # load the model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True, source='GitHub') # already downloaded from GitHub, load the model from local model
+
 
 # set the model to inference mode
 model.eval()
