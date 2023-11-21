@@ -53,7 +53,7 @@ const Camp = () => {
           subtitle="Prign, Pasuruan"
           peopleJoined="50+ Joined"
         />
-        <CampSite />
+        {/* <CampSite /> */}
       </div>
     </section>
   );
