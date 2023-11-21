@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import React from "react";
 import "./globals.css";
-import { Navbar } from "@nextui-org/react";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         <main className="relative overflow-hidden">
-        {children}
+          {children}
         </main>
         <Footer />
       </body>
