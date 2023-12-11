@@ -32,6 +32,13 @@ const Guide = () => {
       </div>
 
       <div className='absolute flex bg-white pg-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20'>
+        <Image
+          src="/meter.svg"
+          alt="meter"
+          width={16}
+          height={158}
+          className='h-full w-auto'
+        />
         <div className='flex w-full flex-col'>
           <div className="flexBetween w-full"> 
             <p className='regular-16 text-gray-20'>Destination</p>
@@ -42,9 +49,11 @@ const Guide = () => {
 
           <div className='flex w-full flex-col'>
             <p className="regular-16 text-gray-20">Start track</p>
-            <h4 className="bold-20 mt-2">Aguas Calientes</h4>
+            <h4 className="bold-20 mt-2">Wonorejo Pasuruan</h4>
           </div>
-          </div>
+        
+        
+        </div>
     </section>
   )
 }
