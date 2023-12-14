@@ -33,7 +33,7 @@ const GetApp = () => {
       </div>
 
       <div className="flex flex-1 items-center justify-end">
-          <Image src="/phone.svg" alt="phones" width={50} height={870} />
+          <Image src="/public/phone.png" alt="phones" width={50} height={870} />
         </div>
     </section>
   );
