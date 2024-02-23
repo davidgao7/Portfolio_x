@@ -1,27 +1,8 @@
-# A morden web app to detect face in video
+# React + Vite
 
-## Use case
-- user upload a picture
-    - return a picture with faces 
-    circled
-- user upload a video
-    - return a video with faces circled all the time as faces moves
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Planned tech stack to use 
-- Backend: python face detect api
-    - yolov5
-    - cv2
-    - flask (connect between front and back)
-- Frontend: a mordern looking web application
-    - reactjs
+Currently, two official plugins are available:
 
-## Basic functions
-- Frontend basic funtions:
-    - upload button to upload image/images/video
-    - a display area to show result after going through model
-    - download button to get the result images with face detect marker on the picture
-    - can publish on github pages
-    - can publish on public domain
-
-## Show case
-<!-- app demo gif-->
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
