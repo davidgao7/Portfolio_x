@@ -42,5 +42,18 @@ npm create vite@latest ./ -- --template react
         - `@emailjs/browser`
         - `framer-motion`
         - `react-router-dom`
+
+```bash
+npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+```
+
+# create file structure
 - delete app.css
-- modify app.jsx vet deafult code
+- modify app.jsx vet deafult structure
+- utils/motion.js framer-motion utils
+- `constant/index.js` store all the constants
+
+# start the project
+```bash
+npm run dev
+```
