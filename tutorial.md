@@ -21,5 +21,26 @@ npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-
 - `unzip` the src.zip to replace project src folder
 - `unzip` the components.zip to replace project components folder
 
+# create vite project
+```bash
+cd ~/Portfolio_x/
+npm create vite@latest ./ -- --template react
+```
+
 # Manage wanted files
-- delete app.css 
+- install packages
+    - tailwindcss: 
+        - `npm install -D tailwindcss`
+        - `npx tailwindcss init`
+    - install older packages: `npm install --legacy-peer-deps`
+        - `@react-three/fiber`, react based 3js libary
+        - `@react-three/drei`
+        - `maath` , math library
+        - `react-tilt`, hovering animation
+        - `react-vertical-timeline-component`
+        - `react-vertical-timeline-component`
+        - `@emailjs/browser`
+        - `framer-motion`
+        - `react-router-dom`
+- delete app.css
+- modify app.jsx vet deafult code
