@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom"
 import {
     About, Contact, Experience, Feedbacks, Hero, Navbar,
     Tech, Works, StarsCanvas
-} from "./components"
+} from "./components" // file based routing
 
 
 const App = () => {
@@ -16,7 +16,6 @@ const App = () => {
                     <Navbar />
                     <Hero />
                 </div>
-                {/*each tag will be a section*/}
                 <About />
                 <Experience />
                 <Tech />

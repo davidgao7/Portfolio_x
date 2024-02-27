@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { styles } from '../styles';
-import { navLinks } from '../constants';
-import { logo, mmenu, close } from '../assets';
+import { styles } from '../../src/styles.js';
+import { navLinks } from '../constants/index.js';
+import logo from '../assets/logo.svg';
 
 const Navbar = () => {
+    const [active, setActive] = useState(" ");
+    const [toggle, setToggle] = useState(false);
+
     return (
         <nav
             className={`${styles.paddindX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -14,17 +17,45 @@ const Navbar = () => {
                 <Link
                     to="/"
                     className="flex items-center gap-2"
-                    onClick={() => {
+                    onClick={() => { // set callback function
                         setActive("");  // track active link(what user current on page )
                         window.scrollTo(0, 0); // scroll to top
                     }}
                 >
-                    <img src={logo} alt="logo.svg" className="w-9 h-9 object-contain" />
-                    <p className="text-white text-[18px] font-bold cursor-pointer">David <span className='sm:vlock hidden'>| Software Engineer</span></p>
+                    <img src={logo} alt="Logo" className="w-9 h-9 object-contain" />
+                    <p className="text-white text-[18px] font-bold cursor-pointer">David
+                        <span className='sm:vlock hidden'>| Software Engineer</span></p>
                 </Link>
+                <ul className='list-none hidden sm:flex flex-row gap-10' >
+                    {navLinks.map((nav) => (
+                        <li
+                            key={nav.id}>
+                            className={`${active === nav.title
+                                ? "text-white"
+                                : "text-secondary"
+                                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                            onClick={() => setActive(nav.title)}
+                        >
+                            <a href={`#${nav.id}`}>{nav.title}</a>
+                        </li>
+                    ))}
+                </ul>
+                {/*for mobile device*/}
+                <div className='sm:hidden flex flex-1 justify-end items-center'>
+                    <img
+                        src={toggle ? close : menu}
+                        alt="menu"
+                        className="w-[28px] h-[28px] object-contain cursor-pointer"
+                        onClick={() => setToggle(!toggle)}
+                    />
+                    <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20
+                        right-0 mx-4 my-2 min-w[140px]`}>
+
+                    </div>
+                </div>
             </div>
-        </nav>
-    )
+        </nav >
+    );
 }
 
-export default Navbar
+export default Navbar;
