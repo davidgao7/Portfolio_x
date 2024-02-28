@@ -57,3 +57,8 @@ npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-
 ```bash
 npm run dev
 ```
+
+- issue 1: [<font color=red>ERROR</font>] Could not resolve "three"
+```bash
+npm install three
+```
