@@ -40,7 +40,12 @@ export const navLinks = [
     },
 ];
 
+// TODO: add your titles
 const services = [
+    {
+        title: "Machine Learning Engineer",
+        icon: backend,
+    },
     {
         title: "Web Developer",
         icon: web,
@@ -50,12 +55,8 @@ const services = [
         icon: mobile,
     },
     {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
+        title: "Kubernetes & Docker",
+        icon: backend
     },
 ];
 
