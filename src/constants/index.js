@@ -19,6 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
+    dfm,
     carrent,
     jobit,
     tripguide,
@@ -117,57 +118,31 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Machine Learning Engineer",
+        company_name: "Dongfeng Motor Corporation",
+        icon: dfm,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "Jan 2022 - Aug 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Coordinated a cross-functional team and supervised 3 Machine Learning Engineers to develop 5 end-to-end ML workflows using Kubeflow pipelines for model auto-training.",
+            "Utilized the Snapdragon Neural Processing Engine SDK to convert TensorFlow models into DLC format, optimizing for Qualcomm 8155 chips, maintaining over 85\% multi-label model accuracy.",
+            "Implemented an ML monitoring dashboard using Evidently.ai, reducing model downtime by 90\% through proactive monitoring of key performance indicators (data drift, model accuracy, and customer prediction acceptance rate).",
+            "Developed an interactive User Feedback Dashboard with Streamlit, resulting in a 60\% increase in concrete requests from first-party buyers. Deployed the Streamlit Docker App in the first-party LAN’s Kubernetes network, achieving a 50\% reduction in loading times.",
+            "Connected the dashboard with Apache Hive data, enabling non-machine learning users to query real-time updates dynamically. It empowers users to derive tangible measurements for comprehensive model performance assessment.",
+            "Achievement: Received the Innovation Support Award from first-party buyers."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Machine Learning Engineer",
+        company_name: "Dongfeng Motor Corporation",
+        icon: dfm,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Dec 2021 - Jan 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Engineered a license plate censor API with YOLOv5 and Flask, achieving an average inference speed of 0.26 seconds per image using a 2.3 GHz 8-Core Intel Core i9 CPU for images sized around 1152 x 746 pixels",
+            "Deployed the API on a Kubernetes cluster, optimizing resource utilization with Gunicorn’s concurrent request processing for efficient and scalable performance"
         ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    }
 ];
 
 const testimonials = [
