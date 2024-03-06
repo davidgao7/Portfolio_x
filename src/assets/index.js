@@ -31,6 +31,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import profolio from "./Profolio.png";
+
 export {
     logo,
     backend,
@@ -61,5 +63,6 @@ export {
     jobit,
     tripguide,
     dfm,
-    haskell
+    haskell,
+    profolio
 };
