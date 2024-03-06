@@ -1,29 +1,30 @@
 import {
     mobile,
     backend,
-    creator,
+    // creator,
     web,
     javascript,
-    typescript,
+    // typescript,
     html,
     css,
     reactjs,
-    redux,
+    // redux,
     tailwind,
     nodejs,
-    mongodb,
+    // mongodb,
     git,
-    figma,
+    // figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    // meta,
+    // starbucks,
+    // tesla,
+    // shopify,
     dfm,
     carrent,
     jobit,
     tripguide,
     threejs,
+    haskell
 } from "../assets";
 
 export const navLinks = [
@@ -41,7 +42,7 @@ export const navLinks = [
     },
 ];
 
-// TODO: add your titles
+// add your titles
 const services = [
     {
         title: "Machine Learning Engineer",
@@ -61,6 +62,7 @@ const services = [
     },
 ];
 
+// TODO: add your technologies
 const technologies = [
     {
         name: "HTML 5",
@@ -75,17 +77,21 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+        name: "Haskell",
+        icon: haskell,
     },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
     {
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -94,10 +100,10 @@ const technologies = [
         name: "Node JS",
         icon: nodejs,
     },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
+    // {
+    //     name: "MongoDB",
+    //     icon: mongodb,
+    // },
     {
         name: "Three JS",
         icon: threejs,
@@ -106,10 +112,10 @@ const technologies = [
         name: "git",
         icon: git,
     },
-    {
-        name: "figma",
-        icon: figma,
-    },
+    // {
+    //     name: "figma",
+    //     icon: figma,
+    // },
     {
         name: "docker",
         icon: docker,
