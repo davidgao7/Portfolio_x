@@ -181,9 +181,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Personal Portfolio",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "personal portfolio website built with React, Tailwind CSS, vite.js, and Motion.js",
         tags: [
             {
                 name: "react",
