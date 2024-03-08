@@ -31,7 +31,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import profolio from "./Profolio.png";
+import profolio from "./profolio.png";
 
 export {
     logo,
