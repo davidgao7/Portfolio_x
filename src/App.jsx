@@ -1,12 +1,15 @@
 import { BrowserRouter } from "react-router-dom";
 import {
-    About, Contact, Experience, Feedbacks, Hero, Navbar,
+    About, Contact, Experience,
+    // Feedbacks,
+    Hero, Navbar,
     Tech, Works, StarsCanvas
 } from "./components"; // file based routing
 
 
 const App = () => {
 
+    console.log('===========rendering==============')
     return (
         // creating layout for the app
         // wrap all compoent into BrowserRouter to enable routing
@@ -20,7 +23,7 @@ const App = () => {
                 <Experience />
                 <Tech />
                 <Works />
-                <Feedbacks />
+                {/* <Feedbacks /> */}
                 <div className="relative z-0">
                     {/* // 3d star canvas */}
                     <Contact />
@@ -31,4 +34,4 @@ const App = () => {
     );
 }
 
-export default App
+export default App;
