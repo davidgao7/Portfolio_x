@@ -9,6 +9,7 @@ import {
 
 const App = () => {
 
+    console.log('===========rendering==============')
     return (
         // creating layout for the app
         // wrap all compoent into BrowserRouter to enable routing
