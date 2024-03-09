@@ -18,9 +18,51 @@ const Contact = () => {
 
     const [loading, setLoading] = useState(false);
 
-    const handleChange = (e) => { }
+    // user can update form fields
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setForm({ ...form, [name]: value });
+    }
 
-    const handleSubmit = (e) => { }
+    const handleSubmit = (e) => {
+
+        // prevent page from refreshing
+        e.preventDefault();
+
+        // start loading
+        setLoading(true);
+
+        // send email
+        emailjs.send(
+            VITE_SERVIE_ID, VITE_CONTACT_ID,
+            {
+                from_name: form.name,
+                to_name: 'David',
+                from_email: form.email,
+                to_email: 'jimgao0606@gmail.com',
+                message: form.message,
+            },
+            VITE_PUBLIC_KEY
+        )
+            .then(
+                () => {
+                    setLoading(false); // stop loading after email is sent
+                    alert('Your message has been sent successfully! I will get back to you soon.');
+
+                    // reset form fields
+                    setForm({
+                        name: '',
+                        email: '',
+                        message: '',
+                    });
+                },
+                (error) => {
+                    setLoading(false); // stop loading after email is sent
+                    console.log(error);
+                    alert('Sorry, something went wrong. Please try again later.');
+                }
+            );
+    };
 
     return (
         <div className={`xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden`} >
@@ -53,7 +95,7 @@ const Contact = () => {
                         <input
                             type="email"
                             name="email"
-                            value={form.name}
+                            value={form.email}
                             onChange={handleChange}
                             placeholder="What's your email?"
                             className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
