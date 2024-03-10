@@ -7,7 +7,7 @@ import CanvasLocader from '../Loader';
 const Computers = ({ isMobile }) => {
     // public folder is the default root: 
     // https://github.com/vitejs/vite/discussions/14202#discussioncomment-7233423
-    const computer = useGLTF('./desktop_pc/scene.gltf')  // .gltf file: 4d model file
+    const blackhole = useGLTF('./blackhole/scene.gltf')  // .gltf file: 4d model file
 
 
     return (
@@ -25,9 +25,9 @@ const Computers = ({ isMobile }) => {
             />
             <pointLight intensity={2} />
             <primitive
-                object={computer.scene}
-                scale={isMobile ? 1.0 : 0.75}
-                postion={isMobile ? [1, -2.25, -2.4] : [0, 2.25, 2.4]}  // x, y, z, z is the depth
+                object={blackhole.scene}
+                scale={isMobile ? 0.25 : 0.75}
+                postion={isMobile ? [1, -2.25, -3.4] : [0, 0, 0.5]}  // x, y, z, z is the depth
                 rotation={[0.05, 0.1, 0.1]}
             />
         </mesh>
@@ -63,6 +63,7 @@ const ComputersCanvas = () => {
         >
             <Suspense fallback={<CanvasLocader />}>
                 <OrbitControls
+                    autoRotate
                     enableZoom={false}
                     maxPolarAngle={Math.PI / 3}
                     minPolarAngle={Math.PI / 3}

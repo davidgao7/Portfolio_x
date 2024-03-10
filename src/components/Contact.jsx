@@ -7,6 +7,14 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+const VITE_CONTACT_ID = 'template_gwfennj';
+const VITE_SERVIE_ID = 'service_qtf9x59';
+const VITE_PUBLIC_KEY = 'utyCUykSb6479dPJ0';
+
+console.log('loading emailjs api keys...')
+console.log(VITE_CONTACT_ID, VITE_SERVIE_ID, VITE_PUBLIC_KEY);
+console.log('emailjs api keys loaded...')
+
 const Contact = () => {
 
     const fromRef = useRef();
