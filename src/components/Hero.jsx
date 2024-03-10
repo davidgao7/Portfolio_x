@@ -14,18 +14,18 @@ const Hero = () => {
                 </div>
                 <div>
                     <h1 className={`${styles.heroHeadText} text-white`}>
-                        Hi, I'm
+                        Hi👋, I' m
                         <span className="text-[#915eff]"> David</span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                         {/*use br to break the line on small devices*/}
-                        I develop machine learning pipeline
-                        <br className='sm:block hidden' /> to automate your dream
+                        I develop software to automate your dream
                     </p>
                 </div>
             </div>
             <ComputersCanvas />
 
+            {/*a scoll indicator button*/}
             <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
                 <a href="#about">
                     <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
