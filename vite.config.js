@@ -6,9 +6,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
+// https://vitejs.dev/guide/static-deploy.html Github Pages section
 export default defineConfig({
     plugins: [react()],
-    base: '/hello-world/', // absolute base path
+    base: '/Portfolio_x/', // absolute base path
     mode: 'development',
     server: {
         host: true,  // add host port export
