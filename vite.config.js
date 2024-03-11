@@ -11,6 +11,7 @@ export default defineConfig({
     base: '/hello-world/', // absolute base path
     mode: 'development',
     server: {
+        host: true,  // add host port export
         port: 3000,
     }
 })
