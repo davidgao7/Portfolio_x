@@ -9,6 +9,8 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
 // import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -44,10 +46,12 @@ export {
     close,
     css,
     docker,
+    python,
     // figma,
     git,
     html,
     javascript,
+    java,
     // mongodb,
     nodejs,
     reactjs,
