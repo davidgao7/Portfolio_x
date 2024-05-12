@@ -1,5 +1,5 @@
 import {
-    mobile,
+    // mobile,
     backend,
     // creator,
     web,
@@ -56,10 +56,10 @@ const services = [
         title: "Web Developer",
         icon: web,
     },
-    {
-        title: "React Native Developer",
-        icon: mobile,
-    },
+    // {
+    //     title: "React Native Developer",
+    //     icon: mobile,
+    // },
     {
         title: "Kubernetes & Docker",
         icon: backend
