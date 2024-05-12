@@ -27,7 +27,8 @@ import {
     threejs,
     haskell,
     profolio,
-    python
+    python,
+    researchAssistant
 } from "../assets";
 
 export const navLinks = [
@@ -194,7 +195,28 @@ const projects = [
         ],
         image: profolio,
         source_code_link: "https://github.com/davidgao7/Portfolio_x",
-    }
+    },
+    {
+        name: "research assistant",
+        description:
+            "a research assistant chat bot to help you get the latest and greatest research papers in a second!",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "rag",
+                color: "green-text-gradient",
+            },
+            {
+                name: "web scraping",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: researchAssistant,
+        source_code_link: "https://github.com/davidgao7/research_assistant",
+    },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
