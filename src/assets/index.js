@@ -35,6 +35,8 @@ import tripguide from "./tripguide.png";
 
 import profolio from "./profolio.png";
 
+import researchAssistant from "./research-assistant.png";
+
 export {
     logo,
     backend,
@@ -68,5 +70,6 @@ export {
     tripguide,
     dfm,
     haskell,
-    profolio
+    profolio,
+    researchAssistant
 };
