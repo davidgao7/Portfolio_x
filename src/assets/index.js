@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 import profolio from "./profolio.png";
 
 import researchAssistant from "./research-assistant.png";
+import structureRAresult from "./result-response.png"
 
 export {
     logo,
@@ -71,5 +72,6 @@ export {
     dfm,
     haskell,
     profolio,
-    researchAssistant
+    researchAssistant,
+    structureRAresult
 };

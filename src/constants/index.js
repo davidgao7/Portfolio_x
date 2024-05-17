@@ -28,7 +28,8 @@ import {
     haskell,
     profolio,
     python,
-    researchAssistant
+    researchAssistant,
+    structureRAresult
 } from "../assets";
 
 export const navLinks = [
@@ -197,7 +198,7 @@ const projects = [
         source_code_link: "https://github.com/davidgao7/Portfolio_x",
     },
     {
-        name: "research assistant",
+        name: "Research Assistant",
         description:
             "a research assistant chat bot to help you get the latest and greatest research papers in a second!",
         tags: [
@@ -216,6 +217,35 @@ const projects = [
         ],
         image: researchAssistant,
         source_code_link: "https://github.com/davidgao7/research_assistant",
+    },
+    {
+        name: "Structure RA",
+        description:
+            "Your personal assistant on structure data!",
+        tags: [
+            {
+                name: "agent",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "rag",
+                color: "green-text-gradient",
+            },
+            {
+                name: "langchain",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "langsmith",
+                color: "purple-text-gradient",
+            },
+            {
+                name: "langserve",
+                color: "red-text-gradient",
+            }
+        ],
+        image: structureRAresult,
+        source_code_link: "https://github.com/davidgao7/StructureRA",
     },
 ];
 
