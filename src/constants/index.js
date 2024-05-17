@@ -221,7 +221,7 @@ const projects = [
     {
         name: "Structure RA",
         description:
-            "Your personal assistant on structure data!",
+            "Your personal assistant on structured data!",
         tags: [
             {
                 name: "agent",
@@ -242,6 +242,10 @@ const projects = [
             {
                 name: "langserve",
                 color: "red-text-gradient",
+            },
+            {
+                name: "structured data",
+                color: "yellow-text-gradient",
             }
         ],
         image: structureRAresult,
