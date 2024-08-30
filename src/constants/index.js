@@ -29,7 +29,8 @@ import {
     profolio,
     python,
     researchAssistant,
-    structureRAresult
+    structureRAresult,
+    museumResponse
 } from "../assets";
 
 export const navLinks = [
@@ -251,6 +252,39 @@ const projects = [
         image: structureRAresult,
         source_code_link: "https://github.com/davidgao7/StructureRA",
     },
+    {
+        name: "Museum AI Tour Guide",
+        description:
+            "Your personalized museum tour guide! ",
+        tags: [
+            {
+                name: "agent",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "rag",
+                color: "green-text-gradient",
+            },
+            {
+                name: "langchain",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "langsmith",
+                color: "purple-text-gradient",
+            },
+            {
+                name: "Streamlit",
+                color: "red-text-gradient",
+            },
+            {
+                name: "structured data",
+                color: "yellow-text-gradient",
+            }
+        ],
+        image: museumResponse,
+        source_code_link: "https://github.com/davidgao7/museum-tour-guide",
+    }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

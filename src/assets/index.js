@@ -37,6 +37,7 @@ import profolio from "./profolio.png";
 
 import researchAssistant from "./research-assistant.png";
 import structureRAresult from "./result-response.png"
+import museumResponse from "./response-with-picture2.png"
 
 export {
     logo,
@@ -73,5 +74,6 @@ export {
     haskell,
     profolio,
     researchAssistant,
-    structureRAresult
+    structureRAresult,
+    museumResponse
 };
