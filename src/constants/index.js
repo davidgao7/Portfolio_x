@@ -30,7 +30,8 @@ import {
     python,
     researchAssistant,
     structureRAresult,
-    museumResponse
+    museumResponse,
+    decisionboundary
 } from "../assets";
 
 export const navLinks = [
@@ -284,6 +285,39 @@ const projects = [
         ],
         image: museumResponse,
         source_code_link: "https://github.com/davidgao7/museum-tour-guide",
+    },
+    {
+        name: "Decision Boundary",
+        description:
+            "A decision boundary visualizer for machine learning models",
+        tags: [
+            {
+                name: "python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "numpy",
+                color: "green-text-gradient",
+            },
+            {
+                name: "matplotlib",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "pandas",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "support vector machine",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "machine learning",
+                color: "pink-text-gradient",
+            }
+        ],
+        image: decisionboundary,
+        source_code_link: "https://github.com/davidgao7/MachineLearning/blob/master/Gao_David_assignment4.ipynb",
     }
 ];
 

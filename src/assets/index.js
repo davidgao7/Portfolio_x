@@ -39,6 +39,8 @@ import researchAssistant from "./research-assistant.png";
 import structureRAresult from "./result-response.png"
 import museumResponse from "./response-with-picture2.png"
 
+import decisionboundary from "./decision_boundry.png"
+
 export {
     logo,
     backend,
@@ -75,5 +77,6 @@ export {
     profolio,
     researchAssistant,
     structureRAresult,
-    museumResponse
+    museumResponse,
+    decisionboundary
 };
