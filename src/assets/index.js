@@ -41,6 +41,8 @@ import museumResponse from "./response-with-picture2.png"
 
 import decisionboundary from "./decision_boundry.png"
 
+import licensePlateCensorAPI from "./LicenceplateDetection.png"
+
 export {
     logo,
     backend,
@@ -78,5 +80,6 @@ export {
     researchAssistant,
     structureRAresult,
     museumResponse,
-    decisionboundary
+    decisionboundary,
+    licensePlateCensorAPI
 };

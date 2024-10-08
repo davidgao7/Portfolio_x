@@ -31,7 +31,8 @@ import {
     researchAssistant,
     structureRAresult,
     museumResponse,
-    decisionboundary
+    decisionboundary,
+    licensePlateCensorAPI
 } from "../assets";
 
 export const navLinks = [
@@ -318,6 +319,35 @@ const projects = [
         ],
         image: decisionboundary,
         source_code_link: "https://github.com/davidgao7/MachineLearning/blob/master/Gao_David_assignment4.ipynb",
+    },
+    {
+        name: "License Plate Censor API",
+        description:
+            "Developed an API using YOLOv5 for censoring license plates in images, achieving 0.26-second inference speed with optimized performance on Kubernetes.",
+        tags: [
+            {
+                name: "yolov5",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "pytorch",
+                color: "green-text-gradient",
+            },
+            {
+                name: "flask",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "docker",
+                color: "purple-text-gradient",
+            },
+            {
+                name: "kubernetes",
+                color: "red-text-gradient",
+            }
+        ],
+        image: licensePlateCensorAPI,
+        source_code_link: "https://github.com/davidgao7/license-plate-censor-api",
     }
 ];
 
