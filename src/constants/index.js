@@ -21,9 +21,9 @@ import {
     // tesla,
     // shopify,
     dfm,
-    carrent,
-    jobit,
-    tripguide,
+    // carrent,
+    // jobit,
+    // tripguide,
     threejs,
     haskell,
     profolio,
@@ -66,7 +66,7 @@ const services = [
     //     icon: mobile,
     // },
     {
-        title: "Kubernetes & Docker",
+        title: "Data Scientist",
         icon: backend
     },
 ];
