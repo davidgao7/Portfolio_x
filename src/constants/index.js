@@ -32,7 +32,8 @@ import {
     structureRAresult,
     museumResponse,
     decisionboundary,
-    licensePlateCensorAPI
+    licensePlateCensorAPI,
+    erDiagram
 } from "../assets";
 
 export const navLinks = [
@@ -348,6 +349,38 @@ const projects = [
         ],
         image: licensePlateCensorAPI,
         source_code_link: "https://github.com/davidgao7/license-plate-censor-api",
+    },
+    {
+        name: "Package Tracker",
+        description: "Package-Tracker a small unmanned aerial systems (SUAS) to track packages within the Lincoln and Omaha, Nebraska, areas.",
+        tags: [
+            {
+                name: "java",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "maven",
+                color: "green-text-gradient",
+            },
+            {
+                name: "hibernate",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Google cloud platform",
+                color: "purple-text-gradient",
+            },
+            {
+                name: "Gson",
+                color: "red-text-gradient",
+            },
+            {
+                name: "JUnit",
+                color: "yellow-text-gradient",
+            }
+        ],
+        image: erDiagram,
+        source_code_link: "https://github.com/davidgao7/Package-Tracker",
     }
 ];
 
