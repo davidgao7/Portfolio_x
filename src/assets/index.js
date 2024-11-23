@@ -16,6 +16,8 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 // import mongodb from "./tech/mongodb.png";
+import db from "./tech/hive.png";
+import aws from "./tech/aws.jpg";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 // import redux from "./tech/redux.png";
@@ -28,6 +30,9 @@ import threejs from "./tech/threejs.png";
 // import starbucks from "./company/starbucks.png";
 // import tesla from "./company/tesla.png";
 import dfm from "./company/dfm.png";
+import metaverse_museum from "./company/metaversemuseum.png"
+import neu from "./NEU.jpg"
+import unl from "./UNL.png"
 import haskell from "./tech/haskell.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -44,6 +49,12 @@ import decisionboundary from "./decision_boundry.png"
 import licensePlateCensorAPI from "./LicenceplateDetection.png"
 
 import erDiagram from "./ER_diagram.png"
+
+import droneProgram from "./drone.png"
+
+import resnet from "./resnet.png"
+
+
 
 export {
     logo,
@@ -84,5 +95,11 @@ export {
     museumResponse,
     decisionboundary,
     licensePlateCensorAPI,
-    erDiagram
+    erDiagram,
+    db,
+    aws,
+    droneProgram,
+    resnet,
+    metaverse_museum,
+    neu, unl
 };
